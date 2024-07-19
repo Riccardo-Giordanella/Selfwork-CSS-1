@@ -3,16 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selfwork CSS 1</title>
+    <title>Blog - Aulab</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Titolo con Font Gill Sans</h1>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="https://aulab.it/wp-content/uploads/2023/04/aulab-logo.svg" alt="Logo di Aulab" class="logo"></a>
+            <a href="">corso gratuito</a>
+            <a href="">corsi</a>
+            <a href="">perchè aulab</a>
+            <a href="">guide</a>
+            <a href="">blog</a>
+            <a href="">lavora con noi</a>
+            <a href="">sei un'azienda?</a>
+            <!-- La lente di ingrandimento che permette la ricerca credo sia un element che interagisce tramite Javascript pertanto lo salto per questo motivo -->
+             <p>contattaci <button>800 128 626</button></p>
+        </nav>
+        <!-- Titolo in alto a sinistra della pagina -->
+        <h1>Blog</h1>
+        <!-- Titolo centrale nella pagina ma in questo caso come h2 -->
+        <h2>Articoli in evidenza</h2>
+    </header>
 
-    <p>Paragrafo con font Franklin Gothic Medium</p>
+    <main>
 
-    <div class="color"></div>
-    <div class="bgimage"></div>
+        <section>
+            <article>
+                <!-- Primo articolo in evidenza (Mi sono permesso di usare "width e height solamente per una visualizzazione leggermente migliore ma so bene che tali attributi fanno parte del CSS e vanno utlizzati con foglio .css dedicato") -->
+                <img src="https://aulab.it/wp-content/uploads/2023/03/HTML-e-come-impararlo_ORIZZONTALE-1024x576.jpg" alt="Immagine rappresentante linguaggio html5" width="400" height="200">
+                <p><i class="fa-regular fa-calendar"></i>31 agosto 2021</p>
+                <h3>Cos’è il linguaggio HTML e come impararlo</h3>
+                <p>Il linguaggio HTML (Hypertext Markup Language) è uno dei più conosciuti e diffusi: lo si trova infatti praticamente in tutte le pagine web esistenti. È una scelta popolare tra i principianti che si…</p>
+            </article>
+            <article>
+                <!-- Secondo articolo in evidenza -->
+                <img src="https://aulab.it/wp-content/uploads/2020/12/articolo_programmare_Javascript-1024x576.jpg" width="400" height="200" alt="Immagine rappresentante linguaggio JavaScript">
+                <p><i class="fa-regular fa-calendar"></i>21 dicembre 2020</p>
+                <h3>Corso Javascript online: cosa c’è da sapere</h3>
+                <p>Essere uno sviluppatore web vuol dire imparare più linguaggi di programmazione per poter creare diversi tipi di applicazioni. Per ogni applicazione, la maggior parte delle volte</p>
+            </article>
+            <article>
+                <!-- Terzo articolo in evidenza -->
+                <img src="https://aulab.it/wp-content/uploads/2020/12/articolo_programmare_in_php-1024x576.jpg" width="400" height="200" alt="Immagine rappresentante linguaggio PHP">
+                <p><i class="fa-regular fa-calendar"></i>1 dicembre 2020</p>
+                <h3>Come imparare a programmare con un corso PHP</h3>
+                <p>Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestiere comporta. Oggi le richieste sul mercato sono molteplic…</p>
+            </article>
+        </section>
+        <!-- Quest'altra section sarà dedicata al resto degli articoli pubblicati -->
+        <section>
+            <article>
+                <img src="https://aulab.it/wp-content/uploads/2023/06/Convertire-jquery-in-javascript-cover-cover-1024x576.jpg" width="400" height="200"
+                alt="Immagine di un ragazzo che indica JavaScript">
+                <p><i class="fa-regular fa-calendar"></i>17 luglio 2024</p>
+                <h3>Come creare un registratore schermo utilizzando Javascript</h3>
+                <p>Conoscere il linguaggio JavaScript, come è facile immaginare, richiede tanta,tanta pratica. Per poter padroneggiare al meglio uno dei linguaggi di programmazione più usati al mondo, un’idea molto…</p>
+            </article>
+            <article>
+                <img src="https://aulab.it/wp-content/uploads/2022/06/Cinque-libri-di-programmazione-1024x576.jpg" width="400" height="200" alt="Immagine di un ragazzo con un libro">
+                <p><i class="fa-regular fa-calendar"></i>11 luglio 2024</p>
+                <h3>I migliori 5 libri sull’intelligenza artificiale</h3>
+                <p>L’intelligenza artificiale (IA) è uno dei campi più affascinanti e in rapida evoluzione della tecnologia moderna. Si tratta di un ambito legato all’informatica, ma che include numerosissime applic…</p>
+            </article>
+            <article>
+                <img src="https://aulab.it/wp-content/uploads/2020/10/articolo_backend-1024x576.jpg" width="400" height="200" alt="Immagine dove alcuni ragazzi spingono degli ingranaggi">
+                <p><i class="fa-regular fa-calendar"></i>2 luglio 2024</p>
+                <h3>Perchè scegliere Java per il backend development</h3>
+                <p>Nel mondo dello sviluppo software, la scelta del linguaggio di programmazione per il backend development è cruciale. Tra le molte opzioni disponibili, il linguaggio Java continua a essere una scelta …</p>
+            </article>
+        </section>
+    </main>
 
+    <footer>
+        <h4>Aulab</h4>
+        <p>Strada S.Giorgio Martire, 2D 70124 Bari</p>
+        <a href="">Contattaci</a>
+        <h4>Numero Verde</h4>
+        <!-- Il numero credo sia anch'esso in js in quanto permette di aprire direttamente l'app telefono del pc -->
+        <p>Paga con</p>
+        <img src="https://aulab.it/wp-content/uploads/2024/07/Scalapay_Logo_Secondary_Ecommerce-badge_White_189x42-1-300x67.png" alt="Scalapay">
+        <br>
+        <a href="https://www.facebook.com/aulab/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/aulab_it/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=393339513967&text=Ciao%21+Vorrei+avere+maggiori+informazioni+sul+corso+Hackademy+per+diventare+web+developer&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://x.com/auLAB_it" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/school/aulab-srl/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@aulab.it" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <h4>corsi</h4>
+        <a href="">Hackademy+</a>
+        <a href="">Hackademy Cyber Security - DevSecOps Expert</a>
+        <a href="">Masterclass React JS</a>
+        <a href="">Masterclass Intelligenza Artificiale</a>
+        <a href="">Corso gratuito</a>
+        <h4>Guide</h4>
+        <a href="">Trova il corso giusto per te</a>
+        <a href="">Come imparare a programmare</a>
+        <a href="">Crea un sito web partendo da zero</a>
+        <a href="">Come trovare lavoro nel mondo della programmazione</a>
+        <a href="">Guida HTML e CSS</a>
+        <a href="">Tutte le guide</a>
+        <h4>Accreditamenti</h4>
+        <!-- L'immagine di Confindustria è un elemento svg di cui ancora non abbiamo parlato in lezione -->
+        <img src="" alt="Confindustria">
+        <h4>Pledge Viewer</h4>
+        <a href=""><img src="https://aulab.it/wp-content/uploads/2023/03/pledge-viewer.png" alt="Pledge Viewer"></a>
+        <h4>Proudly part of</h4>
+        <a href=""><img src="https://aulab.it/wp-content/uploads/2023/03/multiversity-logo-light.png" alt=""></a>
+        <h4>Certificazioni</h4>
+        <!-- Anche le certificazioni sono elementi SVG -->
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+        <p>Codice Pratica N94FF24 – Titolo IV Aiuti ai programmi di internazionalizzazione delle Piccole e Medie Imprese Regione Puglia. Il progetto ha previsto un programma di internazionalizzazione dei servizi Edutech di Aulab sul mercato  Spagnolo.</p>
+        <img src="https://aulab.it/wp-content/uploads/2023/03/footer_stringa_dei_loghi-1024x206.jpg" alt="Fesr Puglia">
+        <p><strong>*Fonti</strong><br> AGID (Agenzia per l’Italia Digitale) – 2018 <br> 5° edizione dell’Osservatorio delle Competenze Digitali – 2019</p>
+        <p>© 2024 Aulab Srl • Tutti i diritti riservati • P.IVA IT07647440721 •</p>
+        <a href="">Privacy Policy</a>
+        <a href="">Codice etico</a>
+        <a href="">Procedura Whistleblowing</a>
+        <a href="">Parte generale procedura 231</a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0a58d89964.js" crossorigin="anonymous"></script>
 </body>
 </html>
